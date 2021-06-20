@@ -1,0 +1,8 @@
+Origin: pie's repo
+Label: pie's repo
+Suite: stable
+Version: 1
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: mostly gd mods
