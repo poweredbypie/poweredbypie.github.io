@@ -1,12 +1,6 @@
+@import "colors.css";
 @import "sections.css";
 @import "syntax.css";
-
-:root {
-    --keyword: #4FC8AF;
-    --var: #C99E28;
-    --comment: #4B4D4B;
-    --link-hover: #24BBED;
-}
 
 html {
     font-family: "Consolas", "Menlo", monospace;
@@ -14,11 +8,19 @@ html {
 
     text-align: center;
 
-    color: #B3B3B3;
+    color: var(--default);
     background-color: #1E1E1E;
 }
 
 h1 {
     font-size: 110px;
     font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

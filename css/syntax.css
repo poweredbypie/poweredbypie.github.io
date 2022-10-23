@@ -1,16 +1,23 @@
 /* "Syntax" and highlighting-related styling. */
+@import "colors.css";
+
+a,
+h1 {
+    color: var(--keyword);
+}
+
 h1::before {
     content: "<";
+    color: var(--default);
 }
 
 h1::after {
     content: ">";
+    color: var(--default);
 }
 
-span,
-a {
-    color: var(--keyword);
-    text-decoration: none;
+a:hover {
+    color: var(--link-hover);
 }
 
 span.var {
@@ -20,9 +27,4 @@ span.var {
 span.var::before {
     content: "let ";
     color: var(--keyword);
-}
-
-a:hover {
-    color: var(--link-hover);
-    text-decoration: underline;
 }

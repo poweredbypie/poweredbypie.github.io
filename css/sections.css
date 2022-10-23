@@ -1,4 +1,6 @@
 /* Different "code sections" in the site. */
+@import "colors.css";
+
 div.decls {
     display: inline-block;
     text-align: left;
