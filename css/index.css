@@ -1,6 +1,6 @@
 :root {
     --keyword: #4FC8AF;
-    --var: #c99e28;
+    --var: #C99E28;
 }
 
 html {
@@ -24,7 +24,7 @@ span.var {
 }
 
 span.comment {
-    color: #4b4d4b;
+    color: #4B4D4B;
 }
 
 h1 {
