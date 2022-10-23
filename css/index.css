@@ -1,6 +1,7 @@
 :root {
     --keyword: #4FC8AF;
     --var: #C99E28;
+    --comment: #4B4D4B;
 }
 
 html {
@@ -24,11 +25,11 @@ span.var {
 }
 
 span.comment {
-    color: #4B4D4B;
+    color: var(--comment);
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 110px;
     font-weight: normal;
 }
 
@@ -39,9 +40,4 @@ a:hover {
 .decls {
     display: inline-block;
     text-align: left;
-}
-
-.back {
-    float: left;
-    padding-top: 0vh;
 }
