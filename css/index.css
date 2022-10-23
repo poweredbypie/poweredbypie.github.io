@@ -1,0 +1,47 @@
+:root {
+    --keyword: #4FC8AF;
+    --var: #c99e28;
+}
+
+html {
+    font-family: "Consolas", "Menlo", monospace;
+    font-size: 35px;
+
+    text-align: center;
+
+    color: #B3B3B3;
+    background-color: #1E1E1E;
+}
+
+span,
+a {
+    color: var(--keyword);
+    text-decoration: none;
+}
+
+span.var {
+    color: var(--var);
+}
+
+span.comment {
+    color: #4b4d4b;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #24BBED;
+}
+
+.decls {
+    display: inline-block;
+    text-align: left;
+}
+
+.back {
+    float: left;
+    padding-top: 0vh;
+}
