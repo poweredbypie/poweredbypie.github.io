@@ -1,0 +1,28 @@
+/* "Syntax" and highlighting-related styling. */
+h1::before {
+    content: "<";
+}
+
+h1::after {
+    content: ">";
+}
+
+span,
+a {
+    color: var(--keyword);
+    text-decoration: none;
+}
+
+span.var {
+    color: var(--var);
+}
+
+span.var::before {
+    content: "let ";
+    color: var(--keyword);
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}

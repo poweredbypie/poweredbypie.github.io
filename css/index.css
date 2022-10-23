@@ -1,7 +1,11 @@
+@import "sections.css";
+@import "syntax.css";
+
 :root {
     --keyword: #4FC8AF;
     --var: #C99E28;
     --comment: #4B4D4B;
+    --link-hover: #24BBED;
 }
 
 html {
@@ -14,30 +18,7 @@ html {
     background-color: #1E1E1E;
 }
 
-span,
-a {
-    color: var(--keyword);
-    text-decoration: none;
-}
-
-span.var {
-    color: var(--var);
-}
-
-span.comment {
-    color: var(--comment);
-}
-
 h1 {
     font-size: 110px;
     font-weight: normal;
-}
-
-a:hover {
-    color: #24BBED;
-}
-
-.decls {
-    display: inline-block;
-    text-align: left;
 }

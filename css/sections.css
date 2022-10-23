@@ -1,0 +1,9 @@
+/* Different "code sections" in the site. */
+div.decls {
+    display: inline-block;
+    text-align: left;
+}
+
+div.comment {
+    color: var(--comment);
+}
